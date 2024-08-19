@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+.split-left {
+    flex: 1;
+    background: url('../assets/transport-hero.jpeg') no-repeat center center/cover;
+}
+.split-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.split-right h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+.service-cards {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+.card {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
